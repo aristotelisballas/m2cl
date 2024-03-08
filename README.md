@@ -2,7 +2,7 @@
 
 This is the official code for the "Multi-Scale and Multi-Layer 
 Contrastive Learning for Domain Generalization" [paper](https://arxiv.org/abs/2308.14418), 
-which has been accepted for publication at the [IEEE Transactions on 
+which has been accepted for publication in the [IEEE Transactions on 
 Artificial Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9078688) journal.
 
 ## Method
