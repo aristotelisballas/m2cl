@@ -1,4 +1,4 @@
-# Welcome to M2CL
+# Welcome to M<sup>2</sup>-CL
 
 This is the official code for the "Multi-Scale and Multi-Layer 
 Contrastive Learning for Domain Generalization" [paper](https://arxiv.org/abs/2308.14418), 
