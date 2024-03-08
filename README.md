@@ -56,7 +56,7 @@ python3 -m domainbed.scripts.train\
 
 
 ## Cite Us
-If you use the above code for your research please cite our paper, which as of the 8th of March 2024 has been accepted at [IEEE TAI](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9078688):
+If you use the above code for your research please cite our paper, which as of the 8th of March 2024 has been accepted in [IEEE TAI](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9078688):
 ```citation
 @misc{ballas2024multiscale,
       title={Multi-Scale and Multi-Layer Contrastive Learning for Domain Generalization}, 
