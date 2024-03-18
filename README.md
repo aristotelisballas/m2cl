@@ -1,9 +1,10 @@
 # Welcome to M<sup>2</sup>-CL
 
 This is the official code for the "Multi-Scale and Multi-Layer 
-Contrastive Learning for Domain Generalization" [paper](https://arxiv.org/abs/2308.14418), 
-which has been accepted for publication in the [IEEE Transactions on 
+Contrastive Learning for Domain Generalization" [paper](https://ieeexplore.ieee.org/document/10472869), 
+which has been published in the [IEEE Transactions on 
 Artificial Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9078688) journal.
+The preprint is also available [here](https://arxiv.org/abs/2308.14418).
 
 ## Method
  In this work, we argue that the problems caused by
@@ -58,12 +59,15 @@ python3 -m domainbed.scripts.train\
 ## Cite Us
 If you use the above code for your research please cite our paper, which as of the 8th of March 2024 has been accepted in [IEEE TAI](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9078688):
 ```citation
-@misc{ballas2024multiscale,
-      title={Multi-Scale and Multi-Layer Contrastive Learning for Domain Generalization}, 
-      author={Aristotelis Ballas and Christos Diou},
-      year={2024},
-      eprint={2308.14418},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}   
+@ARTICLE{10472869,
+  author={Ballas, Aristotelis and Diou, Christos},
+  journal={IEEE Transactions on Artificial Intelligence}, 
+  title={Multi-Scale and Multi-Layer Contrastive Learning for Domain Generalization}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-14},
+  keywords={Feature extraction;Training;Task analysis;Self-supervised learning;Adaptation models;Representation learning;Image classification;Domain generalization;Representation learning;Contrastive learning;Image classification},
+  doi={10.1109/TAI.2024.3377173}
+}
 ```
