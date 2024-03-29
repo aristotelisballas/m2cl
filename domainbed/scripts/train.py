@@ -187,12 +187,6 @@ if __name__ == "__main__":
     eval_loader_names += ['env{}_uda'.format(i)
         for i in range(len(uda_splits))]
 
-    if args.algorithm in ["GANERM", "GANG2DM"]:
-        hparams['alpha'] = args.alpha
-        hparams['beta'] = args.beta
-        hparams['dataset'] = args.dataset
-        hparams['test_envs'] = args.test_envs
-
     algorithm_class = algorithms.get_algorithm_class(args.algorithm)
     algorithm = algorithm_class(dataset.input_shape, dataset.num_classes,
                                 len(dataset) - len(args.test_envs), hparams)
